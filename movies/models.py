@@ -7,6 +7,7 @@ class MoviesTrailer(models.Model):
 	sinopse = models.CharField(max_length=300)
 	category = models.CharField(max_length=15)
 	trailer_url = models.CharField(max_length=200)
+	cover_image_url = models.CharField(max_length=200)
 
 	def __str__(self):
 		return str(self.name)

@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 
+{% block main %}
+	<h1>Pick your movie!</h1>
+	<p>Watch the best trailers in a single place. :-)</p>	
+{% endblock main %}
+
 {% block content %}
-	<p>Home page</p>
+	{% for movie in movies %}
+		<div class="col-lg-6">
+			<img src="{{ movie.cover_image_url }}">
+			<h4>{{ movie.name }}</h4>
+			<p>{{ movie.sinopse }}</p>
+		</div>
+	{% endfor %}
 {% endblock content %}
