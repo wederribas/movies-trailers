@@ -37,6 +37,8 @@ Run the local development server (inside the project root folder):
 
 `$ python manage.py runserver`
 
+You now could access the running application in your browser at http://127.0.0.1:8000
+
 ## Attention
 
 This project has already a sample data **(stored in db.sqlite3 file)** with some sample movies already registered. To create new entries or edit the existing ones, access the admin page with the password **udacityfsnd**.
