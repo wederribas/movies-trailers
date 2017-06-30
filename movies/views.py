@@ -8,7 +8,7 @@ from .models import MoviesTrailer
 
 
 class HomeView(View):
-	""" Renders the website home page with movies traillers on it."""
+	"""Renders the website home page with movies trailers on it."""
 	def get(self, request, *args, **kwargs):
 		movies_entries = MoviesTrailer.objects.all()
 
@@ -25,7 +25,8 @@ class HomeView(View):
 		return render(request, 'movies/index.html', context)
 
 class AboutView(View):
-	""" Renders the website about page."""
+	"""Renders the website about page."""
+
 	def get(self, request, *args, **kwargs):
 		context = {
 			'title': 'About',
