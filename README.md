@@ -26,7 +26,7 @@ $ pip install virtualenv
 $ virtualenv movies_trailers
 
 # Activate it
-$ source my_project/bin/activate
+$ source movies_trailers/bin/activate
 ```
 
 Install Django:
