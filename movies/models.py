@@ -11,6 +11,3 @@ class MoviesTrailer(models.Model):
 
 	def __str__(self):
 		return str(self.name)
-
-	def get_movie_trailer(self):
-		return self.trailer_url
