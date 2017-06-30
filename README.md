@@ -41,7 +41,7 @@ You now could access the running application in your browser at http://127.0.0.1
 
 ## Attention
 
-This project has already a sample data **(stored in db.sqlite3 file)** with some sample movies already registered. To create new entries or edit the existing ones, access the admin page with the password **udacityfsnd**.
+This project has already a sample data **(stored in db.sqlite3 file)** with some sample movies already registered. To create new movies entries or edit the existing ones, access the admin page with the user **guestadmin** and password **udacity2017**.
 
 ## License
 
